@@ -183,6 +183,7 @@ body{
 	color: #ffffff;
 }
 
+
 /***** 响应式布局 *****/
 @media only screen and (max-width: 1366px){
 	.wrap{
@@ -246,6 +247,7 @@ body{
 	.h_nav ul li a {
 		font-size: 0.8725em;
 	}
+
 }
 @media only screen and (max-width: 640px){
 	.wrap{
@@ -271,27 +273,28 @@ body{
 	.h_text {
 		margin: 2% 0 0 4%;
 	}
+
+}
 }
 @media only screen and (max-width: 480px){
 	.wrap{
 		width:95%;
 	}
 	.h_icons {
-		margin-right: 7%;
-		 width: 10%;
+		float: noen;
+		width: 30%;
 	}
+
 	.tt_wrap li a {
 		width: 68px
 		height: 86px;
 	}
-
+	.tt_wrap li:nth-last-child(6),.tt_wrap li:nth-last-child(5){
+		display:none;
+	}
 	.h_left {
 		top: 10%;
 		width: 30%;
-	}
-	.logo{
-		width: 50%;
-
 	}
 	.h_nav ul li a {
 		font-size: 0.8125em;
@@ -301,7 +304,6 @@ body{
 	}
 	.h_main {
 		margin-left: 20%;
-		margin-top: -100%;
 	}
 	.h_text {
 		margin: 0% 0 0 2%;
@@ -312,15 +314,16 @@ body{
 	.h_nav {
 		margin: 0px 0;
 	}
+
+}
 }
 @media only screen and (max-width: 320px) {
 	.wrap{
 		width:95%;
 	}
 	.h_icons {
-		display: none;
 		 float: none;
-		 margin-left: 80%;
+		 width: 30%;
 	}
 	.tt-wrap li a {
 		width: 64px;
@@ -337,16 +340,15 @@ body{
 		padding: 2px 0;
 	}
 	.h_main {
-		margin-left: 20%;
-		margin-top: -100%;
+		width:100%;
+		margin-left:0%;
+		padding: 0% 0 0;
 	}
 	.h_text {
-		margin: 150% 0 0 2%;
-	}
-	.h_text h2 {
-		font-size: 1.5em;
+		display: none;
 	}
 	.h_nav {
 		margin: 0px 0;
 	}
+}
 }
